@@ -1,0 +1,4 @@
+requests==2.22.0
+httplib2==0.20.4
+datetime==5.4
+pytz==2024.1
