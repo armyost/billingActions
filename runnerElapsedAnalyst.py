@@ -40,7 +40,6 @@ def function_invoke():
     
     print("!!! From : %s, to Now" % beforeOneWeekGMT)
     
-    # baseUrl = 'https://api.github.com/orgs/ocean-network-express/repos'
     baseUrl = 'https://api.github.com/repos/'
     timeout = 5
     headers = {'Authorization': 'Bearer ' + getSecret(), 'Accept':'application/vnd.github+json'}
